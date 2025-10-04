@@ -394,7 +394,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Team
 
-**Developed by**: Nishat , Manas , Parth , Kunjan 
+**Developed by**: Manas , Nishat , Parth , Kunjan 
 
 **Contact**: [GitHub](https://github.com/Nishat2006)
 
