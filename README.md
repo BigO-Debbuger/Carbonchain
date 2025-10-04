@@ -388,7 +388,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License 
 
 ---
 
@@ -396,7 +396,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Developed by**: Manas , Nishat , Parth , Kunjan 
 
-**Contact**: [GitHub](https://github.com/Nishat2006)
+**Contact**: [GitHub](https://github.com/BigO-Debbuger)
 
 ---
 
@@ -417,6 +417,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 
 
-[🌊 CarbonChain](https://github.com/Nishat2006/Carbonchain) | [📖 Documentation](./QUICK_START.md) | [🐛 Report Bug](https://github.com/Nishat2006/Carbonchain/issues) | [✨ Request Feature](https://github.com/Nishat2006/Carbonchain/issues)
+[🌊 CarbonChain](https://github.com/BigO-Debbuger) | [📖 Documentation](./QUICK_START.md) | [🐛 Report Bug](https://github.com/BigO-Debbuger/Carbonchain/issues) | [✨ Request Feature](https://github.com/BigO-Debbuger/Carbonchain/issues)
 
 </div>
