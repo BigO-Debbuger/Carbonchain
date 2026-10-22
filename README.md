@@ -420,3 +420,15 @@ This project is licensed under the MIT License
 [🌊 CarbonChain](https://github.com/BigO-Debbuger) | [📖 Documentation](./QUICK_START.md) | [🐛 Report Bug](https://github.com/BigO-Debbuger/Carbonchain/issues) | [✨ Request Feature](https://github.com/BigO-Debbuger/Carbonchain/issues)
 
 </div>
+
+<!-- implementation-notes -->
+## Implementation Notes
+
+CarbonChain combines a FastAPI backend, a React interface, and Aptos Move smart contracts.
+
+- **Image analysis:** The integration status document describes the current image-analysis service as simulated. Treat its results as prototype output unless validated against a production analysis pipeline.
+- **Blockchain:** The repository contains both a mock blockchain service for testing and an Aptos integration. Configure the target network and credentials before attempting transactions.
+- **Market data:** The backend includes a Binance price service. Cryptocurrency prices are market-data inputs, not independently verified carbon-credit valuations.
+- **Verification:** Review the verification workflow and underlying calculation assumptions before using project results for real-world carbon-credit issuance.
+
+See `INTEGRATION_STATUS.md`, `backend/README.md`, and `aptos-contracts/README.md` for implementation and setup details.
