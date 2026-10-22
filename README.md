@@ -1,4 +1,4 @@
-# 🌊 CarbonChain - Blue Carbon Registry Platform
+# ðŸŒŠ CarbonChain - Blue Carbon Registry Platform
 
 <div align="center">
 
@@ -10,54 +10,54 @@
 ![Aptos](https://img.shields.io/badge/Aptos-Blockchain-000000?style=for-the-badge)
 ![Binance](https://img.shields.io/badge/Binance-Live%20API-F0B90B?style=for-the-badge&logo=binance&logoColor=white)
 
-**🌱 Revolutionizing Carbon Credit Management with Blockchain & Real-Time Market Integration 💹**
+**ðŸŒ± Revolutionizing Carbon Credit Management with Blockchain & Real-Time Market Integration ðŸ’¹**
 
-[🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [🏗️ Tech Stack](#️-tech-stack) • [📸 Screenshots](#-screenshots) • [📚 Documentation](#-documentation)
+[ðŸš€ Quick Start](#-quick-start) â€¢ [âœ¨ Features](#-features) â€¢ [ðŸ—ï¸ Tech Stack](#ï¸-tech-stack) â€¢ [ðŸ“¸ Screenshots](#-screenshots) â€¢ [ðŸ“š Documentation](#-documentation)
 
 </div>
 
 ---
 
-## 🎯 What is CarbonChain?
+## ðŸŽ¯ What is CarbonChain?
 
 CarbonChain is a **full-stack blockchain platform** that transforms how blue carbon credits are registered, verified, and traded. Built for mangrove restoration projects, it combines cutting-edge technology to create a transparent, efficient, and real-time carbon credit marketplace.
 
-### 🌟 Key Highlights
+### ðŸŒŸ Key Highlights
 
-- 🌊 **Blue Carbon Focus** - Specialized for mangrove and coastal ecosystem restoration
-- ⛓️ **Blockchain-Powered** - Immutable records on Aptos blockchain
-- 💹 **Real-Time Pricing** - Live market data from Binance API (updates every second!)
-- 🤖 **AI-Driven** - Automated satellite imagery analysis and carbon calculations
-- 📊 **Impact Tracking** - Comprehensive environmental and community benefit monitoring
-- 🔒 **Secure & Transparent** - Multi-stage verification with blockchain audit trail
+- ðŸŒŠ **Blue Carbon Focus** - Specialized for mangrove and coastal ecosystem restoration
+- â›“ï¸ **Blockchain-Powered** - Immutable records on Aptos blockchain
+- ðŸ’¹ **Real-Time Pricing** - Live market data from Binance API (updates every second!)
+- ðŸ¤– **AI-Driven** - Automated satellite imagery analysis and carbon calculations
+- ðŸ“Š **Impact Tracking** - Comprehensive environmental and community benefit monitoring
+- ðŸ”’ **Secure & Transparent** - Multi-stage verification with blockchain audit trail
 
 ---
 
-## ✨ Features
+## âœ¨ Features
 
-### 🌱 Carbon Credit Management
+### ðŸŒ± Carbon Credit Management
 - **Project Registration** - Complete onboarding workflow with site details
 - **AI Image Analysis** - Automated satellite and site image processing
-- **Carbon Calculation** - Precise CO₂ sequestration estimates
-- **Multi-Stage Verification** - Internal → Third-Party → Legal compliance
+- **Carbon Calculation** - Precise COâ‚‚ sequestration estimates
+- **Multi-Stage Verification** - Internal â†’ Third-Party â†’ Legal compliance
 - **Blockchain Deployment** - Immutable project records on Aptos
 
-### ⛓️ Blockchain Integration
+### â›“ï¸ Blockchain Integration
 - **Smart Contracts** - Production-ready Aptos Move contracts
 - **GeoNFT Minting** - Location-bound NFTs for verified sites
 - **Token Management** - Fungible carbon credit tokens
 - **Transfer & Retirement** - Complete lifecycle management
 - **Event Emission** - Real-time blockchain event tracking
 
-### 💹 Live Market Features
+### ðŸ’¹ Live Market Features
 - **Real-Time Pricing** - Binance API integration with 1-second updates
 - **Market Sentiment** - Bullish/Bearish indicators based on crypto markets
 - **Dynamic Valuation** - Portfolio values update with live market data
 - **Price Fluctuation** - Visual indicators for market movements
 - **Crypto Correlation** - 20% correlation to BTC price movements
 
-### 📊 Impact Dashboard
-- **Environmental Metrics** - CO₂ sequestration, biodiversity, water quality
+### ðŸ“Š Impact Dashboard
+- **Environmental Metrics** - COâ‚‚ sequestration, biodiversity, water quality
 - **Community Benefits** - Jobs created, families supported, income generated
 - **Progress Tracking** - Restoration progress, carbon sequestration rates
 - **Real-Time Monitoring** - Live data updates and visualizations
@@ -65,7 +65,7 @@ CarbonChain is a **full-stack blockchain platform** that transforms how blue car
 
 ---
 
-## 🏗️ Tech Stack
+## ðŸ—ï¸ Tech Stack
 
 ### Frontend
 ```
@@ -101,7 +101,7 @@ AI/ML Services      - Image analysis & carbon calc
 
 ---
 
-## 🚀 Quick Start
+## ðŸš€ Quick Start
 
 ### Prerequisites
 - Python 3.9 or higher
@@ -138,7 +138,7 @@ Frontend will run on `http://localhost:3000`
 START_ALL.bat
 ```
 
-### 🎮 Using the Platform
+### ðŸŽ® Using the Platform
 
 1. **Open** `http://localhost:3000` in your browser
 2. **Create** a new carbon credit project
@@ -150,7 +150,7 @@ START_ALL.bat
 
 ---
 
-## 📸 Screenshots
+## ðŸ“¸ Screenshots
 
 ### Initial Assessment
 ![WhatsApp Image 2025-10-04 at 23 27 24_056aeacf](https://github.com/user-attachments/assets/6115f055-61aa-41cc-9aa2-f75562706b03)
@@ -170,59 +170,59 @@ START_ALL.bat
 
 ---
 
-## 📁 Project Structure
+## ðŸ“ Project Structure
 
 ```
 Carbonchain/
-├── backend/                    # Python FastAPI Backend
-│   ├── main.py                # Main API application
-│   ├── models.py              # Database models
-│   ├── schemas.py             # Pydantic schemas
-│   ├── database.py            # Database configuration
-│   ├── requirements.txt       # Python dependencies
-│   └── services/              # Business logic modules
-│       ├── binance_price_service.py    # Real-time pricing
-│       ├── aptos_integration.py        # Blockchain integration
-│       ├── blockchain_service.py       # Smart contract interactions
-│       ├── image_analysis.py           # AI image processing
-│       ├── carbon_calculator.py        # CO₂ calculations
-│       ├── verification_service.py     # Verification workflow
-│       └── marketplace_service.py      # Trading functionality
-│
-├── carbon-assessment/         # React Frontend
-│   ├── src/
-│   │   ├── components/        # React components
-│   │   │   ├── InitialAssessment.js
-│   │   │   ├── BlockchainRegistry.js
-│   │   │   ├── SmartContracts.js
-│   │   │   ├── CarbonMarketplace.js
-│   │   │   ├── ImpactDashboard.js
-│   │   │   └── WalletConnect.js
-│   │   ├── services/          # Frontend services
-│   │   │   ├── binanceService.js      # Market data service
-│   │   │   └── aptosWallet.js         # Wallet integration
-│   │   └── App.js             # Main application
-│   └── package.json           # Node dependencies
-│
-├── aptos-contracts/           # Aptos Move Smart Contracts
-│   ├── sources/
-│   │   ├── carbon_credit.move         # Main registry contract
-│   │   └── carbon_registry.move       # Enhanced CRUD contract
-│   ├── Move.toml              # Move package configuration
-│   ├── deploy_registry.bat    # Windows deployment
-│   └── deploy_registry.sh     # Linux/Mac deployment
-│
-├── START_ALL.bat              # Quick start script (Windows)
-├── start_both.bat             # Alternative startup
-├── start_backend.bat          # Backend only
-├── start_frontend.bat         # Frontend only
-├── QUICK_START.md             # Quick start guide
-└── README.md                  # This file
+â”œâ”€â”€ backend/                    # Python FastAPI Backend
+â”‚   â”œâ”€â”€ main.py                # Main API application
+â”‚   â”œâ”€â”€ models.py              # Database models
+â”‚   â”œâ”€â”€ schemas.py             # Pydantic schemas
+â”‚   â”œâ”€â”€ database.py            # Database configuration
+â”‚   â”œâ”€â”€ requirements.txt       # Python dependencies
+â”‚   â””â”€â”€ services/              # Business logic modules
+â”‚       â”œâ”€â”€ binance_price_service.py    # Real-time pricing
+â”‚       â”œâ”€â”€ aptos_integration.py        # Blockchain integration
+â”‚       â”œâ”€â”€ blockchain_service.py       # Smart contract interactions
+â”‚       â”œâ”€â”€ image_analysis.py           # AI image processing
+â”‚       â”œâ”€â”€ carbon_calculator.py        # COâ‚‚ calculations
+â”‚       â”œâ”€â”€ verification_service.py     # Verification workflow
+â”‚       â””â”€â”€ marketplace_service.py      # Trading functionality
+â”‚
+â”œâ”€â”€ carbon-assessment/         # React Frontend
+â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”œâ”€â”€ components/        # React components
+â”‚   â”‚   â”‚   â”œâ”€â”€ InitialAssessment.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ BlockchainRegistry.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ SmartContracts.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ CarbonMarketplace.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ ImpactDashboard.js
+â”‚   â”‚   â”‚   â””â”€â”€ WalletConnect.js
+â”‚   â”‚   â”œâ”€â”€ services/          # Frontend services
+â”‚   â”‚   â”‚   â”œâ”€â”€ binanceService.js      # Market data service
+â”‚   â”‚   â”‚   â””â”€â”€ aptosWallet.js         # Wallet integration
+â”‚   â”‚   â””â”€â”€ App.js             # Main application
+â”‚   â””â”€â”€ package.json           # Node dependencies
+â”‚
+â”œâ”€â”€ aptos-contracts/           # Aptos Move Smart Contracts
+â”‚   â”œâ”€â”€ sources/
+â”‚   â”‚   â”œâ”€â”€ carbon_credit.move         # Main registry contract
+â”‚   â”‚   â””â”€â”€ carbon_registry.move       # Enhanced CRUD contract
+â”‚   â”œâ”€â”€ Move.toml              # Move package configuration
+â”‚   â”œâ”€â”€ deploy_registry.bat    # Windows deployment
+â”‚   â””â”€â”€ deploy_registry.sh     # Linux/Mac deployment
+â”‚
+â”œâ”€â”€ START_ALL.bat              # Quick start script (Windows)
+â”œâ”€â”€ start_both.bat             # Alternative startup
+â”œâ”€â”€ start_backend.bat          # Backend only
+â”œâ”€â”€ start_frontend.bat         # Frontend only
+â”œâ”€â”€ QUICK_START.md             # Quick start guide
+â””â”€â”€ README.md                  # This file
 ```
 
 ---
 
-## 🔧 Configuration
+## ðŸ”§ Configuration
 
 ### Backend Configuration
 Create `.env` file in `backend/` directory:
@@ -242,7 +242,7 @@ REACT_APP_CONTRACT_ADDRESS=your_contract_address_here
 
 ---
 
-## 🌐 API Endpoints
+## ðŸŒ API Endpoints
 
 ### Projects
 ```
@@ -278,7 +278,7 @@ Full API documentation available at `http://localhost:8000/docs`
 
 ---
 
-## 💹 Real-Time Market Integration
+## ðŸ’¹ Real-Time Market Integration
 
 ### Binance API Integration
 - **Update Frequency**: 1 second
@@ -294,13 +294,13 @@ Full API documentation available at `http://localhost:8000/docs`
 
 ### Price Calculation
 ```
-Carbon Price = Base Price × (1 + BTC Change % × 0.2)
-Market Value = Carbon Credits × Current Price
+Carbon Price = Base Price Ã— (1 + BTC Change % Ã— 0.2)
+Market Value = Carbon Credits Ã— Current Price
 ```
 
 ---
 
-## ⛓️ Blockchain Deployment
+## â›“ï¸ Blockchain Deployment
 
 ### Deploy Smart Contract (Optional)
 
@@ -326,7 +326,7 @@ aptos move run --function-id 'YOUR_ADDRESS::registry::initialize'
 
 ---
 
-## 🧪 Testing
+## ðŸ§ª Testing
 
 ### Backend Tests
 ```bash
@@ -345,9 +345,9 @@ Visit `http://localhost:8000/docs` for interactive API documentation
 
 ---
 
-## 📊 Features Breakdown
+## ðŸ“Š Features Breakdown
 
-### ✅ Fully Implemented
+### âœ… Fully Implemented
 - [x] Complete backend API (20+ endpoints)
 - [x] React frontend with 6 components
 - [x] Real-time Binance price integration
@@ -362,7 +362,7 @@ Visit `http://localhost:8000/docs` for interactive API documentation
 - [x] Database operations (CRUD)
 - [x] File upload handling
 
-### 🚧 Future Enhancements
+### ðŸš§ Future Enhancements
 - [ ] Real AI/ML model integration
 - [ ] Advanced satellite imagery analysis
 - [ ] Multi-chain support (Ethereum, Polygon)
@@ -374,7 +374,7 @@ Visit `http://localhost:8000/docs` for interactive API documentation
 
 ---
 
-## 🤝 Contributing
+## ðŸ¤ Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -386,13 +386,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📝 License
+## ðŸ“ License
 
 This project is licensed under the MIT License 
 
 ---
 
-## 👥 Team
+## ðŸ‘¥ Team
 
 **Developed by**: Manas , Nishat , Parth , Kunjan 
 
@@ -400,7 +400,7 @@ This project is licensed under the MIT License
 
 ---
 
-## 🙏 Acknowledgments
+## ðŸ™ Acknowledgments
 
 - **Aptos Foundation** - For blockchain infrastructure
 - **Binance** - For real-time market data API
@@ -417,7 +417,7 @@ This project is licensed under the MIT License
 <div align="center">
 
 
-[🌊 CarbonChain](https://github.com/BigO-Debbuger) | [📖 Documentation](./QUICK_START.md) | [🐛 Report Bug](https://github.com/BigO-Debbuger/Carbonchain/issues) | [✨ Request Feature](https://github.com/BigO-Debbuger/Carbonchain/issues)
+[ðŸŒŠ CarbonChain](https://github.com/BigO-Debbuger) | [ðŸ“– Documentation](./QUICK_START.md) | [ðŸ› Report Bug](https://github.com/BigO-Debbuger/Carbonchain/issues) | [âœ¨ Request Feature](https://github.com/BigO-Debbuger/Carbonchain/issues)
 
 </div>
 
@@ -432,3 +432,21 @@ CarbonChain combines a FastAPI backend, a React interface, and Aptos Move smart 
 - **Verification:** Review the verification workflow and underlying calculation assumptions before using project results for real-world carbon-credit issuance.
 
 See `INTEGRATION_STATUS.md`, `backend/README.md`, and `aptos-contracts/README.md` for implementation and setup details.
+
+## Repository Structure
+
+Key files and directories currently present at the repository root:
+
+- `aptos-contracts` — Directory.
+- `backend` — Directory.
+- `.gitattributes` — File.
+- `.gitignore` — File.
+- `FINAL_SUMMARY.md` — File.
+- `INTEGRATION_STATUS.md` — File.
+- `package-lock.json` — File.
+- `QUICK_START.md` — File.
+- `README.md` — File.
+- `START_ALL.bat` — File.
+- `start_backend.bat` — File.
+- `start_both.bat` — File.
+- `start_frontend.bat` — File.
